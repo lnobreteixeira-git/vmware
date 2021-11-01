@@ -1,0 +1,1 @@
+Get-Cluster "CLUSTER NAME" | Get-VMHost | Get-VirtualSwitch -Name "vSwitch0" | New-VirtualPortGroup -Name "VM NETWORK NAME" -VLanId VLANID

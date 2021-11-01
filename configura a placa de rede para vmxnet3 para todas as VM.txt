@@ -1,0 +1,2 @@
+$VMGpo = Get-content PATH-TO-FILE
+Get-VM $VMGpo | Get-NetworkAdapter | set-networkadapter -type vmxnet3 -confirm:$false

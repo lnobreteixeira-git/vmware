@@ -1,0 +1,1 @@
+Get-VM "VM NAME" | Get-NetworkAdapter | Set-NetworkAdapter -Type EnhancedVmxne

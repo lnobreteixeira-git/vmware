@@ -1,0 +1,1 @@
+get-vm | get-snapshot | Format-Table -Property VM,Name,Created,Description, SizeMB
