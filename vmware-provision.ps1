@@ -1,4 +1,4 @@
-﻿connect-viserver vctcor00401p.intraservice.corp -User 'usuario' -Password 'senha' -AllLinked
+﻿connect-viserver vcenter -User 'usuario' -Password 'senha' -AllLinked
 $meuhost = Get-VMHost -Name "meuhost"
 $vmname = "nome da vm"
 $datastore = "nome do datastore"
