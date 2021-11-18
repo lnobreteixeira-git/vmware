@@ -1,4 +1,4 @@
-﻿connect-viserver vcenter -User 'usuario' -Password 'senha' -AllLinked
+﻿connect-viserver vcenter -User 'usuario' -Password 'senha' -AllLinked -force
 $meuhost = Get-VMHost -Name "meuhost"
 $vmname = "nome da vm"
 $datastore = "nome do datastore"
